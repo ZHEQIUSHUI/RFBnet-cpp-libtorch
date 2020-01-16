@@ -1,5 +1,5 @@
 # RFBnet-cpp-libtorch
-deploy rfbnet object detection in c++
+deploy [rfbnet](https://github.com/ruinmessi/RFBNet) object detection in c++
 
 # 注意事项
 nms不能用，你可能需要自己另外实现一下(暂时没空...里面写了两个nms的方法还只是草稿，可以删了重写)。
@@ -28,4 +28,4 @@ unix:!macx: LIBS += -L$$PWD/../../../lib/libtorch/lib/ -lgloo -lgloo_cuda -lasmj
 # model
 >链接: https://pan.baidu.com/s/1MDQAGdJFpEpph7wJxv0mzQ  密码: 7odd
  
-there is a other libtorch project model about [monidepth2](https://github.com/nianticlabs/monodepth2) in this link,if you have interesting in it,you can follow it
+there is a [other libtorch project](https://github.com/ZHEQIUSHUI/monodepth2-cpp) model about [monidepth2](https://github.com/nianticlabs/monodepth2) in this link,if you have interesting in it,you can follow it
