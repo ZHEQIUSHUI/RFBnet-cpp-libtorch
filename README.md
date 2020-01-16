@@ -1,6 +1,9 @@
 # RFBnet-cpp-libtorch
 deploy rfbnet object detection in c++
 
+# 注意事项
+nms不能用，你可能需要自己另外实现一下(暂时没空...里面写了两个nms的方法还只是草稿，可以删了重写)。
+
 ## depend
 opencv
 libtorch(test in 1.3.0,you can try other version)
