@@ -195,7 +195,7 @@ int main()
 
 //    cout<<mean.size()<<endl;
 
-    torch::jit::script::Module module = torch::jit::load("/home/arno/project/Py/RFBNet-master/models/RFB512_E_34_4.pt");
+    torch::jit::script::Module module = torch::jit::load("RFB512_E_34_4.pt");
     module.to(at::kCUDA);
     cv::VideoCapture cap(0);
     cv::Mat src;
