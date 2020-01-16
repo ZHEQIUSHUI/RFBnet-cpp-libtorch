@@ -24,3 +24,8 @@ unix:!macx: LIBS += -L$$PWD/../../../lib/libtorch/lib/ -lgloo -lgloo_cuda -lasmj
                                                         -lqnnpack -lfoxi_loader -ltorch
 ```
 有些lib我不知道有没有，所以基本就是全添加进去了，不用的编译器会自动忽略
+
+# model
+>链接: https://pan.baidu.com/s/1MDQAGdJFpEpph7wJxv0mzQ  密码: 7odd
+ 
+there is a other libtorch project model about [monidepth2](https://github.com/nianticlabs/monodepth2) in this link,if you have interesting in it,you can follow it
